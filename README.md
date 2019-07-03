@@ -1,2 +1,2 @@
-# czubacki.com
+# czubacki.site
 My portfolio website
