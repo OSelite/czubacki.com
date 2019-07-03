@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+html {
+    background: url("../img/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#hello-page {
+    width: 100%;
+    display: flex;
+}
+
+#hello-text {
+    color: white;
+    margin-left: 15%;
+    margin-top: 20%;
+}
+
+#nav {
+    width: 50%;
+    height: 100%;
+    margin-left: 8%;
+    margin-top: 12%;
+    margin-right: 5%;
+}
+
+#about {
+    width: 50%;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.562);
+    float: left;
+    border-radius: 25px;
+}
+
+#photo {
+    width: 90%;
+    height: 70%;
+    background-color: red;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+#about h2 {
+    font-size: 30px;
+    margin-left: 40%;
+    margin-right: 5%;
+}
+
+#skills {
+    width: 45%;
+    height: 190px;
+    background-color: rgba(189, 50, 207, 0.562);
+    float: right;
+    border-radius: 25px;
+}
+#contact {
+    width: 45%;
+    height: 190px;
+    background-color: rgba(255, 0, 119, 0.562);
+    float: right;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+
+#hello-text h1 {
+    font-size: 40px;
+}
+
+
