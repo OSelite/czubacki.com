@@ -7,6 +7,8 @@
     <title>czubacki.site</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/circle.css">
+    <link rel="stylesheet" href="css/fontello.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -18,18 +20,116 @@
         </div>
         <div id="nav">
             <div id="about">
-                <div id="photo">
-                    
-                </div>
+                <i class="icon-user-circle-o nav-font"></i>
                 <h2>About me</h2>
             </div>
             <div id="skills">
-
+                <i class="icon-cog-alt nav-font"></i>
+                <h2>Skills</h2>
+            </div>
+            <div id="projects">
+                <i class="icon-file-code nav-font"></i>
+                <h2>Projects</h2>
             </div>
             <div id="contact">
-
+                <i class="icon-plug nav-font"></i>
+                <h2>Contact</h2>
             </div>
         </div>
+    </div>
+
+    <div id="about-page">
+        <h1><i class="icon-user-circle-o"></i>About me</h1>
+        <div id="about-text">
+            <p>I am a second year IT student at Lublin University of Technology.<br>
+                During my free time I realize varied programming projects <br>
+                and I’m focused on deepen my knowledge in Java technologies. <br>
+                In the future I want to develop in Backend technologies or Mobile Development.</p>
+        </div>
+    </div>
+
+    <div id="skills-page">
+        <h1><i class="icon-cog-alt"></i>Skills</h1>
+        <div id="main-skills">
+            
+            <div class="c100 p38 big green">
+                <span>C++</span>
+                <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+                </div>
+            </div>
+
+            <div class="c100 p70 big orange">
+                <span>Java</span>
+                <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+                </div>
+            </div>
+
+            <div class="c100 p27 big">
+                <span>SQL</span>
+                <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="extra-skills">
+
+            <div id="git" class="skill">git</div>
+            <div id="js" class="skill">JS</div>
+            <div id="htmlcss" class="skill">HTML/CSS</div>
+            <div id="maven" class="skill">Maven</div>
+            <div id="eng" class="skill">Vaadin</div>
+
+        </div>
+    </div>
+
+    <div id="projects-page">
+        <h1><i class="icon-file-code"></i>Projects</h1>
+        <div id="projects-elem">
+            <div class="container yellow">
+                <i class="icon-hourglass nav-font"></i>
+                <h2>Registration page</h2>
+                <div class="overlay">
+                    <div class="text">CRUD web app running on local server with Spring Boot & Vaadin</div>
+                </div>
+            </div>
+            <div class="container blue">
+                <i class="icon-shopping-basket nav-font"></i>
+                <h2>Shop Basket</h2>
+                <div class="overlay">
+                    <div class="text">Simple Java Swing app with MySQL Database
+                        <div class="loader"></div>
+                        Upgrading to web app
+                    </div>
+                </div>
+            </div>
+            <div class="container purple">
+                <i class="icon-money nav-font"></i>
+                <h2>Banking system</h2>
+                <div class="overlay">
+                    <div class="text">Web app with Spring & Hibernate
+                        <div class="loader"></div>
+                        Requirements analysis
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact-page">
+        <h1><i class="icon-plug"></i>Contact</h1>
+        <h2>Get more informations</h2>
+
+        <div id="git"></div>
+        <div id="gmail"></div>
+        <div id="linkedin"></div>
+        <div id="phone"></div>
     </div>
     
 </body>
